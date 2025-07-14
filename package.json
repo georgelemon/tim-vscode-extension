@@ -9,8 +9,8 @@
       {
         "id": "timl",
         "icon": {
-          "light": "./assets/file_icon.svg",
-          "dark": "./assets/file_icon.svg"
+          "light": "assets/file_icon.svg",
+          "dark": "assets/file_icon.svg"
         },
         "aliases": [
           "Tim",
@@ -19,14 +19,14 @@
         "extensions": [
           "timl"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "language-configuration.json"
       }
     ],
     "grammars": [
       {
         "language": "timl",
         "scopeName": "source.timl",
-        "path": "./syntaxes/timl.tmLanguage.json",
+        "path": "syntaxes/timl.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.block.js": "javascript",
           "meta.embedded.block.css": "css",
@@ -38,7 +38,7 @@
   },
   "description": "Syntax Highlighting for the Tim Templating Engine",
   "displayName": "Tim",
-  "icon": "./assets/logo.png",
+  "icon": "assets/logo.png",
   "keywords": [
     "tim",
     "timl",

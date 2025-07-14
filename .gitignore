@@ -3,3 +3,4 @@ node_modules
 PLAN.md
 vsc-extension-quickstart.md
 .env
+.DS_Store

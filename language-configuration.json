@@ -29,5 +29,13 @@
     ["(", ")"],
     ["\"", "\""],
     ["'", "'"]
-  ]
+  ],
+  "onEnterRules": [
+    {
+      "beforeText": "^\\s*(if|elif|else|for|while|case|of).*:\\s*$",
+      "action": {
+        "indent": "indentOutdent"
+      }
+    }
+  ],
 }
