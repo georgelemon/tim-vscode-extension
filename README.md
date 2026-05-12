@@ -15,7 +15,7 @@ This is a Visual Studio Code extension that provides syntax highlighting for [Ti
 Check out the official documentation for Tim Engine at 👉 https://tim.openpeeps.dev
 
 ### Preview 
-![Preview of Tim syntax in VSCode](/assets/preview@v2.png?raw=true)
+![Preview of Tim syntax in VSCode](https://github.com/Uzo2005/tim-vscode-extension/blob/master/assets/preview@v2.png?raw=true)
 
 ### Release Notes
 - Initial release of Tim Extension
