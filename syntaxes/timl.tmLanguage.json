@@ -95,7 +95,7 @@
       "name": "keyword.operator.timl"
     },
     "other_keywords": {
-      "match": "@(js|yaml|css|end|view|include|import|placeholder)",
+      "match": "@(javascript|yaml|css|end|view|include|import|placeholder)",
       "name": "keyword.control.less"
     },
     "keywords": {
