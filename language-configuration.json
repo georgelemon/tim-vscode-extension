@@ -16,7 +16,7 @@
     ["[", "]"],
     ["\"", "\""],
     ["'", "'"],
-    ["@js", "\n\t\n@end"],
+    ["@javascript", "\n\t\n@end"],
     ["@client", "\n\t\n@end"],
     ["@css", "\n\t\n@end"],
     ["@json", "\n\t\n@end"],

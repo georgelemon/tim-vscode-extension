@@ -13,7 +13,6 @@
     {
       "include": "#operators"
     },
-
     {
       "include": "#string_literal"
     },
@@ -96,7 +95,7 @@
       "name": "keyword.operator.timl"
     },
     "other_keywords": {
-      "match": "^\\s*(@client|@js|@yaml|@css|@end|@view|@include|@import|@placeholder)",
+      "match": "@(js|yaml|css|end|view|include|import|placeholder)",
       "name": "keyword.control.less"
     },
     "keywords": {
@@ -431,17 +430,17 @@
     "javascript_block": {
       "comment": "This highlights embedded Javascript",
       "name": "meta.embedded.block.js",
-      "begin": "^(@)(js)\\s*([\\t\\s\\S]*)$",
+      "begin": "^(@)(javascript)\\s*([\\t\\s\\S]*)$",
       "beginCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.js.begin.timl" },
+        "2": { "name": "keyword.other.@.timl" },
         "3": { "patterns": [{ "include": "#attribute_keyValuePair" }] }
       },
       "patterns": [{ "include": "source.js" }],
       "end": "^(@)(end)$",
       "endCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.js.end.timl" }
+        "2": { "name": "keyword.other.@.timl" }
       }
     },
     "client_block": {
@@ -449,13 +448,13 @@
       "begin": "^(@)(client)\\s*([\\t\\s\\S]*)$",
       "beginCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.client.begin.timl" },
+        "2": { "name": "keyword.other.@.timl" },
         "3": { "patterns": [{ "include": "#attribute_keyValuePair" }] }
       },
       "end": "^(@)(end)$",
       "endCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.client.end.timl" }
+        "2": { "name": "keyword.other.@.timl" }
       },
       "patterns": [
         {
@@ -469,14 +468,14 @@
       "begin": "^(@)(json)\\s*([\\t\\s\\S]*)$",
       "beginCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.json.begin.timl" },
+        "2": { "name": "keyword.other.@.timl" },
         "3": { "patterns": [{ "include": "#attribute_keyValuePair" }] }
       },
       "patterns": [{ "include": "source.json" }],
       "end": "^(@)(end)$",
       "endCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.json.end.timl" }
+        "2": { "name": "keyword.other.@.timl" }
       }
     },
     "yaml_block": {
@@ -485,14 +484,14 @@
       "begin": "^(@)(yaml)\\s*([\\t\\s\\S]*)$",
       "beginCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.yaml.begin.timl" },
+        "2": { "name": "keyword.other.@.timl" },
         "3": { "patterns": [{ "include": "#attribute_keyValuePair" }] }
       },
       "patterns": [{ "include": "source.yaml" }],
       "end": "^(@)(end)$",
       "endCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.yaml.end.timl" }
+        "2": { "name": "keyword.other.@.timl" }
       }
     },
     "css_block": {
@@ -501,14 +500,14 @@
       "begin": "^(@)(css)\\s*([\\t\\s\\S]*)$",
       "beginCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.css.begin.timl" },
+        "2": { "name": "keyword.other.@.timl" },
         "3": { "patterns": [{ "include": "#attribute_keyValuePair" }] }
       },
       "patterns": [{ "include": "source.css" }],
       "end": "^(@)(end)$",
       "endCaptures": {
         "1": { "name": "keyword.other.@.timl" },
-        "2": { "name": "support.type.css.end.timl" }
+        "2": { "name": "keyword.other.@.timl" }
       }
     },
     "embedded_languages": {
